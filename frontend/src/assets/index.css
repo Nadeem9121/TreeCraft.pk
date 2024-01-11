@@ -1,0 +1,81 @@
+.logo {
+  height: 35px;
+  border-radius: 100px;
+}
+main {
+  min-height: 80vh;
+}
+
+a.productName {
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #4a5858;
+}
+.rating span {
+  margin: 0.1rem;
+}
+.rating svg {
+  color: #f8e825;
+}
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+.maxOrder {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-title {
+  height: 2.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+table td,
+table th {
+  text-align: center;
+}
+.review {
+  margin-top: 30px;
+}
+.review h2 {
+  font-size: 24px;
+  background: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.review button {
+  margin-top: 10px;
+}
+.carousel-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.navItems {
+  color: #4a5858;
+  font-size: 20px;
+  font-weight: 400;
+}
+.linkTo {
+  color: #162c2c;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
